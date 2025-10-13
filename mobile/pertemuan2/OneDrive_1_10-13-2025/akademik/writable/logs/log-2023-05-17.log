@@ -1,0 +1,329 @@
+ERROR - 2023-05-17 03:13:53 --> mysqli_sql_exception: Duplicate entry 'text' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 04:03:14 --> mysqli_sql_exception: Column 'nim' cannot be null in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Mahasiswa.php(51): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Mahasiswa->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 04:43:58 --> mysqli_sql_exception: Column 'kode' cannot be null in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 04:51:23 --> mysqli_sql_exception: Duplicate entry 'p' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 05:07:21 --> mysqli_sql_exception: Duplicate entry '001' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 12:07:16 --> mysqli_sql_exception: Column 'kode' cannot be null in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 12:12:25 --> mysqli_sql_exception: Column 'kode' cannot be null in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 12:12:43 --> mysqli_sql_exception: Column 'kode' cannot be null in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 13:57:52 --> mysqli_sql_exception: Duplicate entry '001' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 14:10:37 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-17 14:17:55 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('p:localhost', 'bamswpmy_bams', 'Stmik@2015', 'bamswpmy_akadem...', 3306, '', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-17 14:17:55 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('p:localhost', 'bamswpmy_bams', 'Stmik@2015', 'bamswpmy_akadem...', 3306, '', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 14:17:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Barang->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Barang->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 14:17:59 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('p:localhost', 'bamswpmy_bams', 'Stmik@2015', 'bamswpmy_akadem...', 3306, '', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 14:17:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Barang->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 14:21:49 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('p:localhost', 'bamswpmy_bams', 'Stmik@2015', 'bamswpmy_akadem...', 3306, '', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 14:21:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Barang->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 16:04:18 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}

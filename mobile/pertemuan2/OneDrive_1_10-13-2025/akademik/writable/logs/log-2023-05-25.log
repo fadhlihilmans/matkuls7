@@ -1,0 +1,22 @@
+ERROR - 2023-05-25 01:28:03 --> mysqli_sql_exception: Table 'bamswpmy_akademik.barang' doesn't exist in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->index()
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-25 01:28:03 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 242.
+ 1 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Barang->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

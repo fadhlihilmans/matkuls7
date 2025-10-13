@@ -1,0 +1,647 @@
+CRITICAL - 2025-03-06 07:36:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+WARNING - 2025-03-06 06:37:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:37:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:37:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:37:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:37:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:37:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:37:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:37:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:37:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:37:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:37:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:37:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:38:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:38:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:38:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:38:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:38:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:38:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:38:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:38:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:38:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:38:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:38:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:38:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bamswpmy_bams'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'bamswpmy_bams', Object(SensitiveParameterValue), 'bamswpmy_akadem...', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:38:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:39:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:39:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:39:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', '', Object(SensitiveParameterValue), 'akademik', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:39:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:39:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:39:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', '', Object(SensitiveParameterValue), 'akademik', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:39:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:39:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:39:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-03-06 06:39:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', '', Object(SensitiveParameterValue), 'akademik', 3306, '', 0)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\akademik\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\akademik\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\akademik\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\akademik\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\akademik\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\akademik\app\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\akademik\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\akademik\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\akademik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\akademik\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-03-06 06:39:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:40:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:40:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:40:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:40:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:40:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mdl is deprecated in APPPATH\Controllers\Mahasiswa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-03-06 06:40:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$validation is deprecated in APPPATH\Controllers\Mahasiswa.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

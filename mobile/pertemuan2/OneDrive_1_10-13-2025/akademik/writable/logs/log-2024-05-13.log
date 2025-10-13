@@ -1,0 +1,90 @@
+ERROR - 2024-05-13 04:04:47 --> mysqli_sql_exception: Column 'nip' cannot be null in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Pegawai.php(42): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Pegawai->create()
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-13 04:09:03 --> mysqli_sql_exception: Column 'nip' cannot be null in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Pegawai.php(42): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Pegawai->create()
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-13 04:09:18 --> mysqli_sql_exception: Column 'nip' cannot be null in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Pegawai.php(42): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Pegawai->create()
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-13 04:09:22 --> mysqli_sql_exception: Column 'nip' cannot be null in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Pegawai.php(42): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Pegawai->create()
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-13 04:13:48 --> mysqli_sql_exception: Column 'nip' cannot be null in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Pegawai.php(42): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Pegawai->create()
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-13 04:17:03 --> mysqli_sql_exception: Column 'nip' cannot be null in /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /home/bamswpmy/api.bamswp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/api.bamswp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/api.bamswp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/api.bamswp.my.id/akademik/app/Controllers/Pegawai.php(42): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Pegawai->create()
+#9 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 /home/bamswpmy/api.bamswp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/api.bamswp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}

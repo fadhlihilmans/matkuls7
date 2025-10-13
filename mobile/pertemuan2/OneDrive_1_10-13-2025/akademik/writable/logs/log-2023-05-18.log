@@ -1,0 +1,15 @@
+ERROR - 2023-05-18 17:29:01 --> mysqli_sql_exception: Duplicate entry 'text' for key 'PRIMARY' in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Controllers/Barang.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(934): App\Controllers\Barang->create()
+#9 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}

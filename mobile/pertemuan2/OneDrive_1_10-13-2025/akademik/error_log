@@ -1,0 +1,3 @@
+[24-May-2023 00:10:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Models/ModelPegawai.php on line 3
+[24-May-2023 00:10:43 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Models/ModelPegawai.php on line 3
+[24-May-2023 00:10:59 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/bamswpmy/public_html/api.bams-wp.my.id/akademik/app/Models/ModelPegawai.php on line 3

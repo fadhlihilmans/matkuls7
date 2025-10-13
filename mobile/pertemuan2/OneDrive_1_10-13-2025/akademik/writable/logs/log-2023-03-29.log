@@ -1,0 +1,72 @@
+CRITICAL - 2023-03-29 04:19:15 --> The framework needs the following extension(s) installed and loaded: intl, json, mbstring.
+in SYSTEMPATH/CodeIgniter.php on line 226.
+ 1 SYSTEMPATH/CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, json, mbstring')
+ 2 SYSTEMPATH/CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-29 04:22:41 --> The framework needs the following extension(s) installed and loaded: intl, json, mbstring.
+in SYSTEMPATH/CodeIgniter.php on line 226.
+ 1 SYSTEMPATH/CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, json, mbstring')
+ 2 SYSTEMPATH/CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-29 04:23:41 --> The framework needs the following extension(s) installed and loaded: intl, json, mbstring.
+in SYSTEMPATH/CodeIgniter.php on line 226.
+ 1 SYSTEMPATH/CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, json, mbstring')
+ 2 SYSTEMPATH/CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-29 04:24:35 --> The framework needs the following extension(s) installed and loaded: intl, json, mbstring.
+in SYSTEMPATH/CodeIgniter.php on line 226.
+ 1 SYSTEMPATH/CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, json, mbstring')
+ 2 SYSTEMPATH/CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-29 04:25:34 --> Class 'Config\Cors' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:25:49 --> Class 'Config\Cors' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:33:11 --> Class 'App\Models\ModelMahasiswa' not found
+in APPPATH/Controllers/Mahasiswa.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 04:47:04 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /home/bamswpmy/public_html/ci4/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/bamswpmy/public_html/ci4/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 /home/bamswpmy/public_html/ci4/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/bamswpmy/public_html/ci4/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/bamswpmy/public_html/ci4/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/bamswpmy/public_html/ci4/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bamswpmy/public_html/ci4/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/bamswpmy/public_html/ci4/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/bamswpmy/public_html/ci4/app/Controllers/Mahasiswa.php(51): CodeIgniter\Model->insert(Array)
+#8 /home/bamswpmy/public_html/ci4/system/CodeIgniter.php(934): App\Controllers\Mahasiswa->create()
+#9 /home/bamswpmy/public_html/ci4/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 /home/bamswpmy/public_html/ci4/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/bamswpmy/public_html/ci4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-29 04:47:04 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `mahasiswa` (`nama`, `prodi`) VALUES (\'deni\', \'KA\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`nama`, `prodi`) VALUES (\'deni\', \'KA\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`nama`, `prodi`) VALUES (\'deni\', \'KA\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nama`, `prodi`) VALUES (:nama:, :prodi:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Mahasiswa.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:53:45 --> Undefined variable: id
+in APPPATH/Controllers/Mahasiswa.php on line 93.
+ 1 APPPATH/Controllers/Mahasiswa.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', '/home/bamswpmy/public_html/ci4/app/Controllers/Mahasiswa.php', 93, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->delete('004')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
