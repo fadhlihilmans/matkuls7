@@ -1,0 +1,439 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="6">
+  <diagram name="alur pengajuan PKL" id="gp192jmk6iefqvygp7R2">
+    <mxGraphModel dx="1246" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-1" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="205" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-1">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KpWI5nPh6H_Pnv7P6yoL-1" source="KpWI5nPh6H_Pnv7P6yoL-6" target="KpWI5nPh6H_Pnv7P6yoL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-6" value="Mendatangi tiap kelas yang siswanya akan menjalani PKL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-1">
+          <mxGeometry x="39.999999999999886" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;fontSize=11;" edge="1" source="KpWI5nPh6H_Pnv7P6yoL-4" parent="KpWI5nPh6H_Pnv7P6yoL-1" target="KpWI5nPh6H_Pnv7P6yoL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-7" value="Kakom memamparkan daftar dudi atau daftar tempat PKL yang tersedia" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KpWI5nPh6H_Pnv7P6yoL-1" source="KpWI5nPh6H_Pnv7P6yoL-9" target="KpWI5nPh6H_Pnv7P6yoL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-9" value="Kakom mencatat daftar siswa berdasarkan dudi yang dipilih sudah dipilih oleh siswa" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-1">
+          <mxGeometry x="40" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-13" value="Kakom menyerahkan catatan kepada Pokja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-1">
+          <mxGeometry x="40" y="395" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-2" value="Siswa" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="325" y="90" width="200" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-8" value="Siswa memilih dudi atau tempat PKL yang tersedia tersebut" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-2">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-3" value="Pokja" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="525" y="90" width="200" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KpWI5nPh6H_Pnv7P6yoL-3" source="KpWI5nPh6H_Pnv7P6yoL-15" target="KpWI5nPh6H_Pnv7P6yoL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-15" value="Pokja membuatkan berita acara atau surat permohonan PKL kepada dudi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-3">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-17" value="Pokja memberikan surat kepada dudi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-3">
+          <mxGeometry x="40" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KpWI5nPh6H_Pnv7P6yoL-3" source="KpWI5nPh6H_Pnv7P6yoL-25" target="KpWI5nPh6H_Pnv7P6yoL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-25" value="Mencatat siswa tersebut pada daftar PKL periode ini" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-3">
+          <mxGeometry x="40" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-3">
+          <mxGeometry x="85" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpWI5nPh6H_Pnv7P6yoL-7" target="KpWI5nPh6H_Pnv7P6yoL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpWI5nPh6H_Pnv7P6yoL-8" target="KpWI5nPh6H_Pnv7P6yoL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpWI5nPh6H_Pnv7P6yoL-13" target="KpWI5nPh6H_Pnv7P6yoL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-19" value="DUDI" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="725" y="90" width="200" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-23" value="Setuju?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KpWI5nPh6H_Pnv7P6yoL-19">
+          <mxGeometry x="65" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KpWI5nPh6H_Pnv7P6yoL-17" target="KpWI5nPh6H_Pnv7P6yoL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KpWI5nPh6H_Pnv7P6yoL-23" target="KpWI5nPh6H_Pnv7P6yoL-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-31" value="YA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KpWI5nPh6H_Pnv7P6yoL-29">
+          <mxGeometry x="-0.3061" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KpWI5nPh6H_Pnv7P6yoL-23" target="KpWI5nPh6H_Pnv7P6yoL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWI5nPh6H_Pnv7P6yoL-32" value="TIDAK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KpWI5nPh6H_Pnv7P6yoL-30">
+          <mxGeometry x="-0.6414" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1RESSFHefqwi4xpVAZta" name="Alur Dudi Baru">
+    <mxGraphModel dx="1026" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--1" value="Siswa" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="390" y="380" width="205" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--1">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--4" value="Siswa mendatangi kakom untuk mengajukan dudi / tempat PKL baru yang belum tersedia pada daftar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--1">
+          <mxGeometry x="30" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;fontSize=11;" edge="1" parent="XS3MeWcb8QrOvqxbfdN--1" source="XS3MeWcb8QrOvqxbfdN--2" target="XS3MeWcb8QrOvqxbfdN--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--10" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="595" y="380" width="200" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XS3MeWcb8QrOvqxbfdN--10" source="XS3MeWcb8QrOvqxbfdN--23" target="XS3MeWcb8QrOvqxbfdN--41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--48" value="YA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XS3MeWcb8QrOvqxbfdN--47">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--23" value="Setuju?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--10">
+          <mxGeometry x="60" y="115" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XS3MeWcb8QrOvqxbfdN--10" source="XS3MeWcb8QrOvqxbfdN--41" target="XS3MeWcb8QrOvqxbfdN--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--41" value="kakom akan mencatat siswa dan dudi tersebut&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--10">
+          <mxGeometry x="30" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--49" value="menyerahkan catatan kepada pokja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--10">
+          <mxGeometry x="30" y="330" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--12" value="Pokja" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="795" y="380" width="200" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--12">
+          <mxGeometry x="85" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XS3MeWcb8QrOvqxbfdN--12" source="XS3MeWcb8QrOvqxbfdN--50" target="XS3MeWcb8QrOvqxbfdN--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--50" value="Pokja mencatat siswa dan tempat magang tersebut daftar PKL periode ini" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="XS3MeWcb8QrOvqxbfdN--12">
+          <mxGeometry x="30" y="330" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XS3MeWcb8QrOvqxbfdN--4" target="XS3MeWcb8QrOvqxbfdN--23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XS3MeWcb8QrOvqxbfdN--49" target="XS3MeWcb8QrOvqxbfdN--50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XS3MeWcb8QrOvqxbfdN--23" target="XS3MeWcb8QrOvqxbfdN--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XS3MeWcb8QrOvqxbfdN--55" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XS3MeWcb8QrOvqxbfdN--54">
+          <mxGeometry x="-0.8541" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ePALTyDGSbjuymgoINPL" name="Alur Pengumpulan Tugas / Project PKL">
+    <mxGraphModel dx="918" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-1" value="Siswa" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="205" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="ZFsiabGCwF9S9ig1oNXy-1">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOJrChD9b4fQmZ7Q8sCt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZFsiabGCwF9S9ig1oNXy-1" source="ZFsiabGCwF9S9ig1oNXy-3" target="ZFsiabGCwF9S9ig1oNXy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-3" value="Siswa mengerjakan tugas dari yang diberikan oleh dudi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="ZFsiabGCwF9S9ig1oNXy-1">
+          <mxGeometry x="30" y="130" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;fontSize=11;" edge="1" parent="ZFsiabGCwF9S9ig1oNXy-1" source="ZFsiabGCwF9S9ig1oNXy-2" target="ZFsiabGCwF9S9ig1oNXy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-11" value="Siswa mencatat, membuat laporan atau mendokumentasikan tuags tersebut" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="ZFsiabGCwF9S9ig1oNXy-1">
+          <mxGeometry x="16" y="200" width="168" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-21" value="Siswa mengirim tugas tersebut pada guru pembimbing, melalui classroom&amp;nbsp;whatsapp, atau mengirim laporan secara langsung sesuai kebijakan dari guru pembimbing masing-masing siswa" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="ZFsiabGCwF9S9ig1oNXy-1">
+          <mxGeometry x="16" y="285" width="168" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZFsiabGCwF9S9ig1oNXy-1" source="ZFsiabGCwF9S9ig1oNXy-11" target="ZFsiabGCwF9S9ig1oNXy-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-5" value="Guru Pembimbing" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="585" y="350" width="200" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="VOJrChD9b4fQmZ7Q8sCt-3" value="Menerima tugas dari siswa" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="ZFsiabGCwF9S9ig1oNXy-5">
+          <mxGeometry x="30" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFsiabGCwF9S9ig1oNXy-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="ZFsiabGCwF9S9ig1oNXy-5">
+          <mxGeometry x="85" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOJrChD9b4fQmZ7Q8sCt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.516;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZFsiabGCwF9S9ig1oNXy-5" source="VOJrChD9b4fQmZ7Q8sCt-3" target="ZFsiabGCwF9S9ig1oNXy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOJrChD9b4fQmZ7Q8sCt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZFsiabGCwF9S9ig1oNXy-21" target="VOJrChD9b4fQmZ7Q8sCt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k8RLbhgpqxctnOhFjeY7" name="Alur Monitoring Siswa PKL">
+    <mxGraphModel dx="1026" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-1" value="Guru Pembimbing" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="205" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mgr17ISpyTeLW_LgmB6y-1" source="mgr17ISpyTeLW_LgmB6y-3" target="mgr17ISpyTeLW_LgmB6y-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-3" value="Guru pembimbing mengecek siswa PKL yang dibimbing oleh guru tersebut pada daftar PKL Periode ini yang dibuat oleh Pokja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="20" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;fontSize=11;" edge="1" parent="mgr17ISpyTeLW_LgmB6y-1" source="mgr17ISpyTeLW_LgmB6y-2" target="mgr17ISpyTeLW_LgmB6y-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-20" value="Guru pembimbing meminta template form monitoring yang dibuat oleh Pokja dan Kakom" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="20" y="235" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mgr17ISpyTeLW_LgmB6y-1" source="mgr17ISpyTeLW_LgmB6y-24" target="mgr17ISpyTeLW_LgmB6y-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-24" value="Guru pembimbing datang ke tempat PKL atatu dudi dengan membawa lembar form monitoring" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="20" y="330" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mgr17ISpyTeLW_LgmB6y-1" source="mgr17ISpyTeLW_LgmB6y-26" target="mgr17ISpyTeLW_LgmB6y-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-26" value="Guru pembimbing mengisi form monitoring tiap siswa sesuai dengan keadaan lapangan" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="20" y="410" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mgr17ISpyTeLW_LgmB6y-1" source="mgr17ISpyTeLW_LgmB6y-27" target="mgr17ISpyTeLW_LgmB6y-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-27" value="Form monitoring disimpan dan nantinya akan direkap untuk penilaian" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="20" y="500" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-1">
+          <mxGeometry x="85" y="580" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-5" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="595" y="260" width="200" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-22" value="Kakom memberikan template" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="mgr17ISpyTeLW_LgmB6y-5">
+          <mxGeometry x="20" y="235" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mgr17ISpyTeLW_LgmB6y-20" target="mgr17ISpyTeLW_LgmB6y-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgr17ISpyTeLW_LgmB6y-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mgr17ISpyTeLW_LgmB6y-22" target="mgr17ISpyTeLW_LgmB6y-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="d2PnJKC_mJEFDAta6-za" name="Alur Observasi Siswa PKL">
+    <mxGraphModel dx="1246" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-1" value="Guru Pembimbing" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="205" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Rdmip9kfRiSgkT1rlULB-1" source="Rdmip9kfRiSgkT1rlULB-4" target="Rdmip9kfRiSgkT1rlULB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-4" value="Guru pembimbing mengecek siswa PKL yang dibimbing oleh guru tersebut pada daftar PKL Periode ini yang dibuat oleh Pokja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="20" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;fontSize=11;" edge="1" parent="Rdmip9kfRiSgkT1rlULB-1" source="Rdmip9kfRiSgkT1rlULB-2" target="Rdmip9kfRiSgkT1rlULB-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-6" value="Guru pembimbing meminta template lembar observasi yang dibuat oleh Pokja dan Kakom" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="20" y="235" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Rdmip9kfRiSgkT1rlULB-1" source="Rdmip9kfRiSgkT1rlULB-8" target="Rdmip9kfRiSgkT1rlULB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-8" value="Guru pembimbing datang ke tempat PKL atatu dudi dengan membawa lembar lembar observasi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="20" y="330" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Rdmip9kfRiSgkT1rlULB-1" source="Rdmip9kfRiSgkT1rlULB-12" target="Rdmip9kfRiSgkT1rlULB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-12" value="lembar observasi disimpan dan nantinya akan direkap untuk penilaian" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="20" y="595" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="85" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-21" value="Guru pembimbing datang ke tempat PKL atatu dudi dengan membawa lembar lembar observasi" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-1">
+          <mxGeometry x="20" y="410" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-14" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="765" y="370" width="200" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-15" value="Kakom memberikan template" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-14">
+          <mxGeometry x="20" y="235" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rdmip9kfRiSgkT1rlULB-6" target="Rdmip9kfRiSgkT1rlULB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rdmip9kfRiSgkT1rlULB-15" target="Rdmip9kfRiSgkT1rlULB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-18" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="965" y="370" width="214.09" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Rdmip9kfRiSgkT1rlULB-18" source="Rdmip9kfRiSgkT1rlULB-20" target="Rdmip9kfRiSgkT1rlULB-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-20" value="Guru pembimbing menyerahkan lembar observasi kepada instruktur dudi atau pembimbing magang" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-18">
+          <mxGeometry x="15" y="405" width="189.09" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Rdmip9kfRiSgkT1rlULB-18" source="Rdmip9kfRiSgkT1rlULB-24" target="Rdmip9kfRiSgkT1rlULB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-24" value="Instruktur dudi atau pembimbing magang mengisi lembar observasi tiap siswa sesuai dengan keadaan lapangan" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-18">
+          <mxGeometry x="15" y="500" width="189.09" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-26" value="Instruktur dudi Menyerahkan lembar observasi kepada guru" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="Rdmip9kfRiSgkT1rlULB-18">
+          <mxGeometry x="15" y="590" width="189.09" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rdmip9kfRiSgkT1rlULB-21" target="Rdmip9kfRiSgkT1rlULB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rdmip9kfRiSgkT1rlULB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rdmip9kfRiSgkT1rlULB-26" target="Rdmip9kfRiSgkT1rlULB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uZ4BTtLdShVq6pB2x8cj" name="Alur Observasi Siswa PKL">
+    <mxGraphModel dx="1090" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-1" value="f" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="205" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fOGQbNgtZJM56tjjc3WR-1" source="fOGQbNgtZJM56tjjc3WR-4" target="fOGQbNgtZJM56tjjc3WR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-4" value="Guru pembimbing mengecek siswa PKL yang dibimbing oleh guru tersebut pada daftar PKL Periode ini yang dibuat oleh Pokja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="20" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;fontSize=11;" edge="1" parent="fOGQbNgtZJM56tjjc3WR-1" source="fOGQbNgtZJM56tjjc3WR-2" target="fOGQbNgtZJM56tjjc3WR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-6" value="Guru pembimbing meminta template form penilaian ujian yang dibuat oleh Pokja dan Kakom" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="20" y="235" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fOGQbNgtZJM56tjjc3WR-1" source="fOGQbNgtZJM56tjjc3WR-40" target="fOGQbNgtZJM56tjjc3WR-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="465" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fOGQbNgtZJM56tjjc3WR-1" source="fOGQbNgtZJM56tjjc3WR-12" target="fOGQbNgtZJM56tjjc3WR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-12" value="form penilaian ujian disimpan dan nantinya akan direkap untuk penilaian" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="22.5" y="500" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="87.5" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-36" value="Guru pembimbing memluai sesi penilaian akhir dengan siswa" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="22.5" y="330" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-40" value="Guru pembimbing menilai siswa tersebut" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-1">
+          <mxGeometry x="22.5" y="400" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-14" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="795" y="440" width="200" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-15" value="Kakom memberikan template" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-14">
+          <mxGeometry x="20" y="235" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fOGQbNgtZJM56tjjc3WR-6" target="fOGQbNgtZJM56tjjc3WR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fOGQbNgtZJM56tjjc3WR-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-35" value="Kakom" style="swimlane;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="995" y="440" width="200" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-37" value="Siswa melakukan presentasi terkait kegiatan dan tugas yang dilakukan pada saat PKL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="fOGQbNgtZJM56tjjc3WR-35">
+          <mxGeometry x="25" y="330" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fOGQbNgtZJM56tjjc3WR-36" target="fOGQbNgtZJM56tjjc3WR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOGQbNgtZJM56tjjc3WR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fOGQbNgtZJM56tjjc3WR-37" target="fOGQbNgtZJM56tjjc3WR-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
