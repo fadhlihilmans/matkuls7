@@ -8,7 +8,7 @@ class ModelMahasiswa extends Model
 {
     protected $table = 'mahasiswa';
     protected $primaryKey = 'nim';
-    protected $allowedFields = ['nim', 'nama','prodi'];
+    protected $allowedFields = ['nim', 'nama','prodi', 'kelas'];
 	protected $useTimestamps = false;
 
     public function findById($nim)

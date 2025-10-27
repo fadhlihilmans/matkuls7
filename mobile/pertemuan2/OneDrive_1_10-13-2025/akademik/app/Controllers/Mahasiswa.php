@@ -42,10 +42,12 @@ class Mahasiswa extends BaseController
 		$nim = $this->request->getPost('nim');
 		$nama = $this->request->getPost('nama');
 		$prodi = $this->request->getPost('prodi');
+		$kelas = $this->request->getPost('kelas');
         $data = [
 			'nim' => $nim,
             'nama' => $nama,
-            'prodi' => $prodi
+            'prodi' => $prodi,
+            'kelas' => $kelas,
         ];
 		
         $this->mdl->insert($data);
