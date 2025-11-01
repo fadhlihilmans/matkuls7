@@ -1,0 +1,5 @@
+"ListView.builder(...)", Ini adalah widget yang membangun tampilan daftar (list) secara otomatis. Ia akan membuat satu baris item untuk setiap data mahasiswa yang diterima dari snapshot.
+"itemCount: snapshot.data!.docs.length", Kode ini memberitahu ListView.builder jumlah total item yang harus dibuat, berdasarkan berapa banyak dokumen (data) yang ada di dalam snapshot.
+"DocumentSnapshot documentSnapshot = snapshot.data!.docs[index];", Di dalam ListView.builder, kode ini berfungsi untuk mengambil satu per satu data mahasiswa dari daftar dan menyimpannya ke dalam variabel documentSnapshot.
+"child: ListTile(...)", widget yang mengatur tampilan untuk satu baris data mahasiswa, lengkap dengan ikon (leading), judul (title: Text"(documentSnapshot["nim"]))", dan subjudul (yang berisi Nama, Prodi, dan Kelas).
+"onTap: () => Navigator.push( context, MaterialPageRoute( builder: (context) => EditData( ... ) ), );", Ini adalah aksi yang terjadi saat salah satu item di daftar ditekan. Fungsinya adalah untuk membuka halaman EditData.
